@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="531.0" prefWidth="693.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainPageController">
+   <children>
+      <Group layoutX="21.0" layoutY="43.0">
+         <children>
+            <FlowPane fx:id="flowPane" layoutX="201.0" layoutY="103.0" prefHeight="209.0" prefWidth="233.0">
+               <children>
+                  <VBox fx:id="vBox">
+                     <children>
+                        <HBox fx:id="hBox1">
+                           <children>
+                              <Button fx:id="button1" mnemonicParsing="false" prefHeight="69.0" prefWidth="77.0">
+                                 <font>
+                                    <Font size="33.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button2" mnemonicParsing="false" prefHeight="69.0" prefWidth="77.0">
+                                 <font>
+                                    <Font size="33.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button3" mnemonicParsing="false" prefHeight="69.0" prefWidth="77.0">
+                                 <font>
+                                    <Font size="33.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="hBox2">
+                           <children>
+                              <Button fx:id="button4" mnemonicParsing="false" prefHeight="69.0" prefWidth="77.0">
+                                 <font>
+                                    <Font size="33.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button5" mnemonicParsing="false" prefHeight="69.0" prefWidth="77.0">
+                                 <font>
+                                    <Font size="33.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button6" mnemonicParsing="false" prefHeight="69.0" prefWidth="77.0">
+                                 <font>
+                                    <Font size="33.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="hBox3">
+                           <children>
+                              <Button fx:id="button7" mnemonicParsing="false" prefHeight="69.0" prefWidth="77.0">
+                                 <font>
+                                    <Font size="33.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button8" mnemonicParsing="false" prefHeight="69.0" prefWidth="77.0">
+                                 <font>
+                                    <Font size="33.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button9" mnemonicParsing="false" prefHeight="69.0" prefWidth="77.0">
+                                 <font>
+                                    <Font size="33.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </FlowPane>
+            <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="21.0" prefHeight="53.0" prefWidth="500.0" text="Tic-Tac-Toe">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="Player2" layoutY="103.0" prefHeight="17.0" prefWidth="56.0" text="Player2 :" />
+            <Label fx:id="Player1" layoutX="558.0" layoutY="103.0" prefHeight="17.0" prefWidth="56.0" text="Player1 :" />
+            <Label fx:id="point2Label" layoutY="159.0" prefHeight="17.0" prefWidth="56.0" text="Point :" />
+            <Label fx:id="point1Label" layoutX="558.0" layoutY="159.0" prefHeight="17.0" prefWidth="56.0" text="Point :" />
+            <Label fx:id="name2" layoutY="129.0" prefHeight="17.0" prefWidth="77.0" text="Label" />
+            <Label fx:id="name1" layoutX="558.0" layoutY="129.0" prefHeight="17.0" prefWidth="77.0" text="Label" />
+            <Label fx:id="point2" layoutY="185.0" prefHeight="17.0" prefWidth="56.0" text="Label" />
+            <Label fx:id="point1" layoutX="558.0" layoutY="185.0" prefHeight="17.0" prefWidth="56.0" text="Label" />
+            <Button fx:id="restartBTN" layoutX="201.0" layoutY="355.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="110.0" text="Restart" />
+            <Button fx:id="closeBTN" layoutX="324.0" layoutY="402.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="110.0" text="Exit game" />
+            <Button fx:id="settingBTN" layoutX="201.0" layoutY="402.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="110.0" text="Setting" />
+            <Button fx:id="nextRoundBTN" layoutX="324.0" layoutY="355.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="110.0" text="Next round" />
+         </children>
+      </Group>
+   </children>
+</AnchorPane>

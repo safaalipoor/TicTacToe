@@ -140,6 +140,7 @@ public class MainPageController implements Initializable {
                 e.printStackTrace();
             }
             setRoundGame();
+            setNewPlayersName();
         });
         restartBTN.setOnAction(event ->
                 reStartGame2());
@@ -298,6 +299,18 @@ public class MainPageController implements Initializable {
     }
     public void setRoundGame(){
         roundCounter = SettingPageController.round;
-
+    }
+    public void setNewPlayersName(){
+        if (checkNameFields()){
+            name1.setText(SettingPageController.newName1);
+            name2.setText(SettingPageController.newName2);
+        }
+    }
+    public boolean checkNameFields(){
+        if (SettingPageController.newName1.isEmpty() ||
+                SettingPageController.newName2.isEmpty()){
+            return false;
+        }
+        return true;
     }
 }

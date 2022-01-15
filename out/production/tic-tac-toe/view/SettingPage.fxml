@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.Group?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="202.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SettingPageController">
+<AnchorPane prefHeight="450.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SettingPageController">
    <children>
-      <Group layoutX="47.0" layoutY="40.0">
-         <children>
-            <Button fx:id="setBTN" layoutX="258.0" layoutY="108.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" text="Set" />
-            <Label fx:id="label" prefHeight="25.0" prefWidth="217.0" text="Enter the number of game rounds :" />
-            <TextField fx:id="roundField" layoutY="55.0" prefHeight="25.0" prefWidth="186.0" promptText="enter number" />
-         </children>
-      </Group>
+      <Button fx:id="setBTN" layoutX="254.0" layoutY="364.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="Set round" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="31.0" />
+      <Label fx:id="label" layoutX="47.0" layoutY="40.0" prefHeight="25.0" prefWidth="217.0" text="Enter the number of game rounds :" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="127.0" />
+      <TextField fx:id="roundField" layoutX="47.0" layoutY="82.0" prefHeight="25.0" prefWidth="186.0" promptText="enter number" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="158.0" />
+      <Label fx:id="errorLBL" layoutX="47.0" layoutY="312.0" prefHeight="25.0" prefWidth="186.0" text="Label" textFill="#c30b0b" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="158.0" />
+      <Label fx:id="label1" layoutX="47.0" layoutY="125.0" prefHeight="25.0" prefWidth="217.0" text="Enter new players name :" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="127.0" />
+      <Label fx:id="label11" layoutX="47.0" layoutY="150.0" prefHeight="25.0" prefWidth="217.0" text="player 1 :" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="127.0" />
+      <Label fx:id="label111" layoutX="47.0" layoutY="229.0" prefHeight="25.0" prefWidth="217.0" text="player 2 :" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="127.0" />
+      <TextField fx:id="newPlayer2" layoutX="47.0" layoutY="264.0" prefHeight="25.0" prefWidth="186.0" promptText="enter name" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="158.0" />
+      <TextField fx:id="newPlayer1" layoutX="47.0" layoutY="185.0" prefHeight="25.0" prefWidth="186.0" promptText="enter name" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="158.0" />
+      <Button fx:id="setBTN1" layoutX="254.0" layoutY="402.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="Set name" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="31.0" />
    </children>
 </AnchorPane>

@@ -6,7 +6,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -60,8 +59,6 @@ public class LoginPageController implements Initializable {
             stage.setTitle("Tic Tac Toe");
             stage.setScene(new Scene(loader.getRoot()));
             stage.show();
-           // stage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
-           // stage.setFullScreen(true);
             ((Stage) StartBTN.getScene().getWindow()).close();
         }
     }
